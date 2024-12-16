@@ -1,0 +1,6 @@
+﻿flask
+flask_cors
+pickle
+face_recognition
+numpy
+cv2
