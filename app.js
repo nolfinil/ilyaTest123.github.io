@@ -12,7 +12,7 @@ document.getElementById('upload-form').addEventListener('submit', async function
 
     try {
         // Ensure the fetch URL matches your Flask server's base URL and port
-        const response = await fetch('http://127.0.0.1:5000/upload', {
+        const response = await fetch('https://afb2-5-76-252-129.ngrok-free.app/upload', {
             method: 'POST',
             body: formData,
         });
